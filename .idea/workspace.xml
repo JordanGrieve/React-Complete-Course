@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Final Polishing &amp; Improving Components" />
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Init commit for 03 Investment Calculator project">
+      <change afterPath="$PROJECT_DIR$/03-investment-calculator/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-investment-calculator/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-investment-calculator/src/components/Results.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-investment-calculator/src/components/UserInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-investment-calculator/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/03-investment-calculator/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-investment-calculator/src/util/investment.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-investment-calculator/src/util/investment.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,30 +50,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/griev/Desktop/Udemy/React-Complete-Course&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\02-tic-tac-toe-starting-project\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.jsx.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/griev/Desktop/Udemy/React-Complete-Course",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\03-investment-calculator\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\griev\Desktop\Udemy\React-Complete-Course" />
       <recent name="C:\Users\griev\Desktop\Udemy\React-Complete-Course\01-starting-project\src\components\Header" />
     </key>
   </component>
@@ -97,7 +106,8 @@
       <workItem from="1757239232504" duration="1424000" />
       <workItem from="1757240683337" duration="292000" />
       <workItem from="1757240994929" duration="17752000" />
-      <workItem from="1757760125312" duration="303000" />
+      <workItem from="1757760125312" duration="2563000" />
+      <workItem from="1757762718541" duration="5320000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -235,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757266130896</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Init commit for 03 Investment Calculator project">
+      <option name="closed" value="true" />
+      <created>1757760510319</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757760510319</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +277,7 @@
     <MESSAGE value="Winner and draw functionality added." />
     <MESSAGE value="Rematch functionality added" />
     <MESSAGE value="Final Polishing &amp; Improving Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Polishing &amp; Improving Components" />
+    <MESSAGE value="Init commit for 03 Investment Calculator project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit for 03 Investment Calculator project" />
   </component>
 </project>
