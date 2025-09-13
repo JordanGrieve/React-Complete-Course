@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Final Polishing &amp; Improving Components" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JordanGrieve&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JordanGrieve/React-Complete-Course.git&quot;,
+    &quot;accountId&quot;: &quot;c37d1789-f70d-472b-98df-ceda3b363d9d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31vP2A9sVw2ofNzvTkDNhbkEBXC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/griev/Desktop/Udemy/React-Complete-Course&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\02-tic-tac-toe-starting-project\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\griev\Desktop\Udemy\React-Complete-Course\01-starting-project\src\components\Header" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="" />
+      <created>1756401364561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756401364561</updated>
+      <workItem from="1756401365493" duration="1906000" />
+      <workItem from="1756410667968" duration="246000" />
+      <workItem from="1756410923448" duration="116000" />
+      <workItem from="1756411119399" duration="73000" />
+      <workItem from="1756546433927" duration="16445000" />
+      <workItem from="1756655507334" duration="11084000" />
+      <workItem from="1756751528844" duration="12000" />
+      <workItem from="1756836528545" duration="26000" />
+      <workItem from="1756920860475" duration="2674000" />
+      <workItem from="1756930182416" duration="90000" />
+      <workItem from="1757163929178" duration="656000" />
+      <workItem from="1757239232504" duration="1424000" />
+      <workItem from="1757240683337" duration="292000" />
+      <workItem from="1757240994929" duration="17752000" />
+      <workItem from="1757760125312" duration="303000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
+      <option name="closed" value="true" />
+      <created>1756563493343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756563493343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated folder structure + cleaned up code">
+      <option name="closed" value="true" />
+      <created>1756575203276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756575203276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Passing custom arguments to event functions">
+      <option name="closed" value="true" />
+      <created>1756581378101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756581378101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added states to make the page interactive">
+      <option name="closed" value="true" />
+      <created>1756585097022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756585097022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completion of 01 project">
+      <option name="closed" value="true" />
+      <created>1756660260686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756660260686</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added multiple JSX slots for the tabs to make code cleaner">
+      <option name="closed" value="true" />
+      <created>1756674217449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756674217449</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finalised and optimised">
+      <option name="closed" value="true" />
+      <created>1756928283822</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756928283822</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Init 02 project Tic-Tac-Toe">
+      <option name="closed" value="true" />
+      <created>1757239423820</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757239423820</updated>
+    </task>
+    <task id="LOCAL-00009" summary="User input &amp; Two-Way-Binding function added">
+      <option name="closed" value="true" />
+      <created>1757245271866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757245271866</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Rendering Multi-Dimensional Lists">
+      <option name="closed" value="true" />
+      <created>1757251413304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757251413304</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updating Object State Immutably">
+      <option name="closed" value="true" />
+      <created>1757252010064</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757252010064</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lifting State Up [Core Concept] - The active player now lights up correctly">
+      <option name="closed" value="true" />
+      <created>1757252942210</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757252942210</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Log functionality added">
+      <option name="closed" value="true" />
+      <created>1757258911452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757258911452</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Removed a redundant state and instead derived and computed the values.">
+      <option name="closed" value="true" />
+      <created>1757259875700</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757259875700</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Winner and draw functionality added.">
+      <option name="closed" value="true" />
+      <created>1757263616638</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757263616638</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Rematch functionality added">
+      <option name="closed" value="true" />
+      <created>1757264281260</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757264281260</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Final Polishing &amp; Improving Components">
+      <option name="closed" value="true" />
+      <created>1757266130896</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757266130896</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of 01 Starting Project in the React Course" />
+    <MESSAGE value="Updated folder structure + cleaned up code" />
+    <MESSAGE value="Passing custom arguments to event functions" />
+    <MESSAGE value="added states to make the page interactive" />
+    <MESSAGE value="Completion of 01 project" />
+    <MESSAGE value="Added multiple JSX slots for the tabs to make code cleaner" />
+    <MESSAGE value="Finalised and optimised" />
+    <MESSAGE value="Init 02 project Tic-Tac-Toe" />
+    <MESSAGE value="User input &amp; Two-Way-Binding function added" />
+    <MESSAGE value="Rendering Multi-Dimensional Lists" />
+    <MESSAGE value="Updating Object State Immutably" />
+    <MESSAGE value="Lifting State Up [Core Concept] - The active player now lights up correctly" />
+    <MESSAGE value="Log functionality added" />
+    <MESSAGE value="Removed a redundant state and instead derived and computed the values." />
+    <MESSAGE value="Winner and draw functionality added." />
+    <MESSAGE value="Rematch functionality added" />
+    <MESSAGE value="Final Polishing &amp; Improving Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Polishing &amp; Improving Components" />
+  </component>
+</project>
