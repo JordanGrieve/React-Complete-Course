@@ -3,6 +3,7 @@ import ResultModal from "./ResultModal.jsx";
 
 export default function TimeChallange({title, targetTime}) {
     const timer = useRef()
+    const dialog = useRef()
 
     const [timeStarted, setTimeStarted] = useState(false)
     const [timerExpired, setTimerExpired] = useState(false);
@@ -10,6 +11,7 @@ export default function TimeChallange({title, targetTime}) {
     function handleStart() {
         timer.current = setTimeout(() => {
             setTimerExpired(true)
+            dialog.current.open()
         },targetTime * 1000);
 
         setTimeStarted(true)
@@ -21,7 +23,7 @@ export default function TimeChallange({title, targetTime}) {
 
     return (
         <>
-        {timerExpired && <ResultModal targetTime={targetTime} result="lost"/>}
+        <ResultModal ref={dialog} targetTime={targetTime} result="lost"/>
             <section className="challenge">
                 <h2>{title}</h2>
                 <p className="challenge-time">
