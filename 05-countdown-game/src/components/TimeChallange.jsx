@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import ResultModal from "./ResultModal.jsx";
+import ResultModal from "./ResultModal.jsx"
 
 export default function TimeChallange({title, targetTime}) {
     const timer = useRef()
