@@ -7,7 +7,7 @@ export default function ResultModal({ref, result, targetTime}) {
     useImperativeHandle(ref, () => {
         return {
             open() {
-                dialog.current.showModal()
+               dialog.current.showModal()
             }
         }
     })

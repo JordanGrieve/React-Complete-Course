@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add TimeChallenge component and ResultModal for countdown game">
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Refactor ResultModal and TimeChallenge components to use refs for dialog management">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-countdown-game/src/components/ResultModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/05-countdown-game/src/components/ResultModal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-countdown-game/src/components/TimeChallange.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/05-countdown-game/src/components/TimeChallange.jsx" afterDir="false" />
@@ -111,7 +111,7 @@
       <workItem from="1759570371802" duration="8000" />
       <workItem from="1759672885475" duration="2069000" />
       <workItem from="1759697370861" duration="2812000" />
-      <workItem from="1759856409793" duration="5673000" />
+      <workItem from="1759856409793" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -305,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759863480530</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Refactor ResultModal and TimeChallenge components to use refs for dialog management">
+      <option name="closed" value="true" />
+      <created>1759864999928</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1759864999928</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +344,7 @@
     <MESSAGE value="Initial commit for the 5th project - Countdown Game" />
     <MESSAGE value="Introducing Refs: Connecting &amp; Accessing HTML Elements via Refs" />
     <MESSAGE value="Add TimeChallenge component and ResultModal for countdown game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TimeChallenge component and ResultModal for countdown game" />
+    <MESSAGE value="Refactor ResultModal and TimeChallenge components to use refs for dialog management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor ResultModal and TimeChallenge components to use refs for dialog management" />
   </component>
 </project>
