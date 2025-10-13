@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add NewProject component and integrate Input fields in App">
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Enhance Input component styling and update NewProject layout for better UX">
+      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/NoProjectSelected.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/Input.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1759856409793" duration="8530000" />
       <workItem from="1760193665659" duration="1015000" />
       <workItem from="1760349515080" duration="1390000" />
-      <workItem from="1760350927708" duration="919000" />
+      <workItem from="1760350927708" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -364,14 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760351504416</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Enhance Input component styling and update NewProject layout for better UX">
+      <option name="closed" value="true" />
+      <created>1760352054629</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1760352054629</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added multiple JSX slots for the tabs to make code cleaner" />
     <MESSAGE value="Finalised and optimised" />
     <MESSAGE value="Init 02 project Tic-Tac-Toe" />
     <MESSAGE value="User input &amp; Two-Way-Binding function added" />
@@ -396,6 +404,7 @@
     <MESSAGE value="Initialize React project with Tailwind CSS and Vite setup" />
     <MESSAGE value="Add ProjectsSidebar component and update App to include it" />
     <MESSAGE value="Add NewProject component and integrate Input fields in App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add NewProject component and integrate Input fields in App" />
+    <MESSAGE value="Enhance Input component styling and update NewProject layout for better UX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance Input component styling and update NewProject layout for better UX" />
   </component>
 </project>
