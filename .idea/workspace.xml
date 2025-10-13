@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add project management functionality with NoProjectSelected and ProjectsSidebar components">
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add project creation functionality with input handling in NewProject component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-project-management/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <workItem from="1759856409793" duration="8530000" />
       <workItem from="1760193665659" duration="1015000" />
       <workItem from="1760349515080" duration="1390000" />
-      <workItem from="1760350927708" duration="3378000" />
+      <workItem from="1760350927708" duration="4447000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -388,14 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760353310705</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add project creation functionality with input handling in NewProject component">
+      <option name="closed" value="true" />
+      <created>1760354571557</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1760354571557</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="User input &amp; Two-Way-Binding function added" />
     <MESSAGE value="Rendering Multi-Dimensional Lists" />
     <MESSAGE value="Updating Object State Immutably" />
     <MESSAGE value="Lifting State Up [Core Concept] - The active player now lights up correctly" />
@@ -420,6 +427,7 @@
     <MESSAGE value="Enhance Input component styling and update NewProject layout for better UX" />
     <MESSAGE value="Add NoProjectSelected component and refactor App layout to improve user experience" />
     <MESSAGE value="Add project management functionality with NoProjectSelected and ProjectsSidebar components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project management functionality with NoProjectSelected and ProjectsSidebar components" />
+    <MESSAGE value="Add project creation functionality with input handling in NewProject component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project creation functionality with input handling in NewProject component" />
   </component>
 </project>
