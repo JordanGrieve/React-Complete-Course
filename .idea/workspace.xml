@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Refactor ResultModal to use createPortal for improved dialog rendering">
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Initialize React project with Tailwind CSS and Vite setup">
+      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/griev/Desktop/Udemy/React-Complete-Course&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\02-tic-tac-toe-starting-project\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\griev\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.jsx.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/griev/Desktop/Udemy/React-Complete-Course",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\03-investment-calculator\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Users\\griev\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\griev\Desktop\Udemy\React-Complete-Course" />
@@ -111,6 +113,7 @@
       <workItem from="1759697370861" duration="2812000" />
       <workItem from="1759856409793" duration="8530000" />
       <workItem from="1760193665659" duration="1015000" />
+      <workItem from="1760349515080" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -336,14 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759867721232</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Initialize React project with Tailwind CSS and Vite setup">
+      <option name="closed" value="true" />
+      <created>1760349761734</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1760349761734</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Passing custom arguments to event functions" />
     <MESSAGE value="added states to make the page interactive" />
     <MESSAGE value="Completion of 01 project" />
     <MESSAGE value="Added multiple JSX slots for the tabs to make code cleaner" />
@@ -368,6 +378,7 @@
     <MESSAGE value="Refactor ResultModal and TimeChallenge components to use refs for dialog management" />
     <MESSAGE value="Refactor TimeChallenge and ResultModal components to improve dialog management using refs" />
     <MESSAGE value="Refactor ResultModal to use createPortal for improved dialog rendering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor ResultModal to use createPortal for improved dialog rendering" />
+    <MESSAGE value="Initialize React project with Tailwind CSS and Vite setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize React project with Tailwind CSS and Vite setup" />
   </component>
 </project>
