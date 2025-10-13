@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Refactor TimeChallenge and ResultModal components to improve dialog management using refs">
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Refactor ResultModal to use createPortal for improved dialog rendering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-countdown-game/src/components/ResultModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/05-countdown-game/src/components/ResultModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-countdown-game/src/components/TimeChallange.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/05-countdown-game/src/components/TimeChallange.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,29 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.jsx.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "C:/Users/griev/Desktop/Udemy/React-Complete-Course",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\02-tic-tac-toe-starting-project\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Users\\griev\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/griev/Desktop/Udemy/React-Complete-Course&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\griev\\Desktop\\Udemy\\React-Complete-Course\\02-tic-tac-toe-starting-project\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\griev\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\griev\Desktop\Udemy\React-Complete-Course" />
@@ -111,7 +109,8 @@
       <workItem from="1759570371802" duration="8000" />
       <workItem from="1759672885475" duration="2069000" />
       <workItem from="1759697370861" duration="2812000" />
-      <workItem from="1759856409793" duration="8465000" />
+      <workItem from="1759856409793" duration="8530000" />
+      <workItem from="1760193665659" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -329,14 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759866934561</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Refactor ResultModal to use createPortal for improved dialog rendering">
+      <option name="closed" value="true" />
+      <created>1759867721232</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1759867721232</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated folder structure + cleaned up code" />
     <MESSAGE value="Passing custom arguments to event functions" />
     <MESSAGE value="added states to make the page interactive" />
     <MESSAGE value="Completion of 01 project" />
@@ -361,6 +367,7 @@
     <MESSAGE value="Add TimeChallenge component and ResultModal for countdown game" />
     <MESSAGE value="Refactor ResultModal and TimeChallenge components to use refs for dialog management" />
     <MESSAGE value="Refactor TimeChallenge and ResultModal components to improve dialog management using refs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor TimeChallenge and ResultModal components to improve dialog management using refs" />
+    <MESSAGE value="Refactor ResultModal to use createPortal for improved dialog rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor ResultModal to use createPortal for improved dialog rendering" />
   </component>
 </project>
