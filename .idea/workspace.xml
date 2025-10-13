@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add cancel functionality to NewProject component and enhance Modal styling">
-      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/SelectedProject.jsx" afterDir="false" />
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add project selection functionality and display selected project details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-project-management/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/ProjectsSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/SelectedProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/SelectedProject.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <workItem from="1759856409793" duration="8530000" />
       <workItem from="1760193665659" duration="1015000" />
       <workItem from="1760349515080" duration="1390000" />
-      <workItem from="1760350927708" duration="7875000" />
+      <workItem from="1760350927708" duration="8486000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -421,14 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760357830630</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add project selection functionality and display selected project details">
+      <option name="closed" value="true" />
+      <created>1760359008867</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1760359008867</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Log functionality added" />
     <MESSAGE value="Removed a redundant state and instead derived and computed the values." />
     <MESSAGE value="Winner and draw functionality added." />
     <MESSAGE value="Rematch functionality added" />
@@ -453,6 +459,7 @@
     <MESSAGE value="Refactor ProjectsSidebar to display project list and reset selectedProjectId in App" />
     <MESSAGE value="Add Modal component for input validation in NewProject" />
     <MESSAGE value="Add cancel functionality to NewProject component and enhance Modal styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cancel functionality to NewProject component and enhance Modal styling" />
+    <MESSAGE value="Add project selection functionality and display selected project details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project selection functionality and display selected project details" />
   </component>
 </project>
