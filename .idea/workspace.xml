@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add ProjectsSidebar component and update App to include it">
-      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/Input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add NewProject component and integrate Input fields in App">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-project-management/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/Input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/NewProject.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1759856409793" duration="8530000" />
       <workItem from="1760193665659" duration="1015000" />
       <workItem from="1760349515080" duration="1390000" />
-      <workItem from="1760350927708" duration="304000" />
+      <workItem from="1760350927708" duration="919000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
@@ -358,14 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760350281227</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add NewProject component and integrate Input fields in App">
+      <option name="closed" value="true" />
+      <created>1760351504416</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1760351504416</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completion of 01 project" />
     <MESSAGE value="Added multiple JSX slots for the tabs to make code cleaner" />
     <MESSAGE value="Finalised and optimised" />
     <MESSAGE value="Init 02 project Tic-Tac-Toe" />
@@ -390,6 +395,7 @@
     <MESSAGE value="Refactor ResultModal to use createPortal for improved dialog rendering" />
     <MESSAGE value="Initialize React project with Tailwind CSS and Vite setup" />
     <MESSAGE value="Add ProjectsSidebar component and update App to include it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ProjectsSidebar component and update App to include it" />
+    <MESSAGE value="Add NewProject component and integrate Input fields in App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add NewProject component and integrate Input fields in App" />
   </component>
 </project>
