@@ -1,13 +1,16 @@
 import { useState } from "react";
 
 export default function NewTask({ onAdd }) {
-  const [entertedTask, setEntertedTask] = useState();
+  const [entertedTask, setEntertedTask] = useState("");
 
   function handleChange(event) {
     setEntertedTask(event.target.value);
   }
 
   function handleClick() {
+    if (entertedTask.trim() === "") {
+      return;
+    }
     onAdd(entertedTask);
     setEntertedTask("");
   }
