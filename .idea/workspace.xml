@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3978bba4-4c85-466f-9449-e95b85d8de9b" name="Changes" comment="Add delete functionality to SelectedProject component">
-      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/NewTask.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-project-management/src/components/Tasks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/NewTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/NewTask.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-project-management/src/components/SelectedProject.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/SelectedProject.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-project-management/src/components/Tasks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/06-project-management/src/components/Tasks.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +117,8 @@
       <workItem from="1760193665659" duration="1015000" />
       <workItem from="1760349515080" duration="1390000" />
       <workItem from="1760350927708" duration="9345000" />
+      <workItem from="1760440856805" duration="420000" />
+      <workItem from="1760441290745" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of 01 Starting Project in the React Course">
       <option name="closed" value="true" />
