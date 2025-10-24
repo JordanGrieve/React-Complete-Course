@@ -1,23 +1,39 @@
 import { useState, useCallback } from "react";
 import QUESTIONS from "../questions.js";
 import quizIsCompleteImg from "../assets/quiz-complete.png";
-import QuestionTimer from "./QuestionTimer.jsx";
+import Question from "./Question.jsx";
 
 export default function Quiz() {
+  const [answerState, setAnsweredState] = useState("");
   const [userAnswers, setUserAnswers] = useState([]);
 
-  const activeQuestionsIndex = userAnswers.length;
+  const activeQuestionsIndex =
+    answerState === "" ? userAnswers.length : userAnswers.length - 1;
 
   // Is the quiz over?
   const quizIsComplete = activeQuestionsIndex === QUESTIONS.length;
 
-  const handleSelectAnswer = useCallback(function handelSelectAnswer(
-    selectedAnswer,
-  ) {
-    setUserAnswers((prevUserAnswers) => {
-      return [...prevUserAnswers, selectedAnswer];
-    });
-  }, []);
+  const handleSelectAnswer = useCallback(
+    function handelSelectAnswer(selectedAnswer) {
+      setAnsweredState("answered");
+      setUserAnswers((prevUserAnswers) => {
+        return [...prevUserAnswers, selectedAnswer];
+      });
+
+      setTimeout(() => {
+        if (selectedAnswer === QUESTIONS[activeQuestionsIndex].answers[0]) {
+          setAnsweredState("correct");
+        } else {
+          setAnsweredState("wrong");
+        }
+
+        setTimeout(() => {
+          setAnsweredState("");
+        }, 2000);
+      }, 1000);
+    },
+    [activeQuestionsIndex],
+  );
 
   const handleSkipAnsewer = useCallback(
     () => handleSelectAnswer(null),
@@ -33,28 +49,17 @@ export default function Quiz() {
     );
   }
 
-  const shuffleAnswers = [...QUESTIONS[activeQuestionsIndex].answers];
-  shuffleAnswers.sort(() => Math.random() - 0.5);
-
   return (
     <div id="quiz">
-      <div id="question">
-        <QuestionTimer
-          key={activeQuestionsIndex}
-          timeout={10000}
-          onTimeOut={handleSkipAnsewer}
-        />
-        <h2>{QUESTIONS[activeQuestionsIndex].text}</h2>
-        <ul id="answers">
-          {shuffleAnswers.map((answer) => (
-            <li key={answer} className="answer">
-              <button onClick={() => handelSelectAnswer(answer)}>
-                {answer}
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Question
+        key={activeQuestionsIndex}
+        questionText={QUESTIONS[activeQuestionsIndex].text}
+        answers={[...QUESTIONS[activeQuestionsIndex].answers]}
+        onSelect={handleSelectAnswer}
+        selectedAnswer={userAnswers[userAnswers.length - 1]}
+        answerState={answerState}
+        onSkipAnsewer={handleSkipAnsewer}
+      />
     </div>
   );
 }
