@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"IPhone Conference","image":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.hyatt.com%2Fcontent%2Fdam%2Fhyatt%2Fhyattdam%2Fimages%2F2018%2F11%2F01%2F1154%2FSELRS-P1200-Grand-Ballroom-Business-Conference.jpg%2FSELRS-P1200-Grand-Ballroom-Business-Conference.4x3.jpg&f=1&nofb=1&ipt=c4bee696d14897ead12c5699e807f5d57e8c3ac966fd4dc8d48c6874212b89f6","date":"2025-12-05","description":"New IPhone meeting and conference","id":"947933d1-e0c2-4f79-a133-d50cccc9672a"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
