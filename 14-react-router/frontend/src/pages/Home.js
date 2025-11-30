@@ -1,5 +1,11 @@
+import PageContent from "../components/PageContent";
+
 function Home() {
-  return <h1>Home Evenbt Page</h1>;
+  return (
+    <PageContent title="Welcome!">
+      <p>This is the home page of our React Router example application.</p>
+    </PageContent>
+  );
 }
 
 export default Home;
