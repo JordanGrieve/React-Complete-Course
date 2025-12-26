@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Output from "./Output.js";
+
 const Greeting = () => {
   const [changeText, setChangeText] = useState(false);
 
@@ -10,8 +12,8 @@ const Greeting = () => {
   return (
     <div>
       <h1>Hello, welcome to our application!</h1>
-      {!changeText && <p>This is a simple greeting component.</p>}
-      {changeText && <p>The text has been changed!</p>}
+      {!changeText && <Output>This is a simple greeting component.</Output>}
+      {changeText && <Output>The text has been changed!</Output>}
       <button onClick={changeTextHandler}>Change Text</button>
     </div>
   );
